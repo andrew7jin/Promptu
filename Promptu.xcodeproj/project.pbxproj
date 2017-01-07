@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		053517314EA1025397B97624 /* Pods_PromptuUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A56F6BF0D1A5686CFA0F17 /* Pods_PromptuUITests.framework */; };
 		461F19B21E20CEEA00B3A1B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F19B11E20CEEA00B3A1B0 /* AppDelegate.swift */; };
 		461F19B41E20CEEA00B3A1B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F19B31E20CEEA00B3A1B0 /* ViewController.swift */; };
 		461F19B71E20CEEB00B3A1B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461F19B51E20CEEB00B3A1B0 /* Main.storyboard */; };
@@ -14,6 +15,13 @@
 		461F19BC1E20CEEB00B3A1B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461F19BA1E20CEEB00B3A1B0 /* LaunchScreen.storyboard */; };
 		461F19C71E20CEEB00B3A1B0 /* PromptuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F19C61E20CEEB00B3A1B0 /* PromptuTests.swift */; };
 		461F19D21E20CEEB00B3A1B0 /* PromptuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F19D11E20CEEB00B3A1B0 /* PromptuUITests.swift */; };
+		461F19E01E20D20700B3A1B0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 461F19DF1E20D20700B3A1B0 /* GoogleService-Info.plist */; };
+		461F19E51E20DE6800B3A1B0 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 461F19E11E20DE6800B3A1B0 /* Bolts.framework */; };
+		461F19E61E20DE6800B3A1B0 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 461F19E21E20DE6800B3A1B0 /* FBSDKCoreKit.framework */; };
+		461F19E71E20DE6800B3A1B0 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 461F19E31E20DE6800B3A1B0 /* FBSDKLoginKit.framework */; };
+		461F19E81E20DE6800B3A1B0 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 461F19E41E20DE6800B3A1B0 /* FBSDKShareKit.framework */; };
+		B6CF6E94EB18786B2AE2F609 /* Pods_Promptu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0D93B70CDA680E421DACFA0 /* Pods_Promptu.framework */; };
+		B9346DF9EB723F1A58D44C1E /* Pods_PromptuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBAF895C1DF01DD2F5DA3942 /* Pods_PromptuTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0ADA020A48FA63F16CE422A9 /* Pods-PromptuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PromptuTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PromptuTests/Pods-PromptuTests.release.xcconfig"; sourceTree = "<group>"; };
+		17A56F6BF0D1A5686CFA0F17 /* Pods_PromptuUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PromptuUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		461F19AE1E20CEEA00B3A1B0 /* Promptu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Promptu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		461F19B11E20CEEA00B3A1B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		461F19B31E20CEEA00B3A1B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,18 @@
 		461F19CD1E20CEEB00B3A1B0 /* PromptuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PromptuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		461F19D11E20CEEB00B3A1B0 /* PromptuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptuUITests.swift; sourceTree = "<group>"; };
 		461F19D31E20CEEB00B3A1B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		461F19DF1E20D20700B3A1B0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		461F19E11E20DE6800B3A1B0 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		461F19E21E20DE6800B3A1B0 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		461F19E31E20DE6800B3A1B0 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		461F19E41E20DE6800B3A1B0 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		4785AFD92E2876CFF7BE946D /* Pods-Promptu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Promptu.release.xcconfig"; path = "Pods/Target Support Files/Pods-Promptu/Pods-Promptu.release.xcconfig"; sourceTree = "<group>"; };
+		9AA29FB8844F24F3A627B802 /* Pods-PromptuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PromptuUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PromptuUITests/Pods-PromptuUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B9BDF0E154D2D46319016478 /* Pods-PromptuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PromptuUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PromptuUITests/Pods-PromptuUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBBBEC22F1A953AF1FEDDA08 /* Pods-PromptuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PromptuTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PromptuTests/Pods-PromptuTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DBD3D8D7EE0D048CAB231C71 /* Pods-Promptu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Promptu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Promptu/Pods-Promptu.debug.xcconfig"; sourceTree = "<group>"; };
+		EBAF895C1DF01DD2F5DA3942 /* Pods_PromptuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PromptuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0D93B70CDA680E421DACFA0 /* Pods_Promptu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Promptu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6CF6E94EB18786B2AE2F609 /* Pods_Promptu.framework in Frameworks */,
+				461F19E61E20DE6800B3A1B0 /* FBSDKCoreKit.framework in Frameworks */,
+				461F19E81E20DE6800B3A1B0 /* FBSDKShareKit.framework in Frameworks */,
+				461F19E71E20DE6800B3A1B0 /* FBSDKLoginKit.framework in Frameworks */,
+				461F19E51E20DE6800B3A1B0 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9346DF9EB723F1A58D44C1E /* Pods_PromptuTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				053517314EA1025397B97624 /* Pods_PromptuUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +110,8 @@
 				461F19C51E20CEEB00B3A1B0 /* PromptuTests */,
 				461F19D01E20CEEB00B3A1B0 /* PromptuUITests */,
 				461F19AF1E20CEEA00B3A1B0 /* Products */,
+				EE45F8887FB05550DC0D3A06 /* Pods */,
+				59F533D2859899FB2F32AB2D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +134,7 @@
 				461F19B81E20CEEB00B3A1B0 /* Assets.xcassets */,
 				461F19BA1E20CEEB00B3A1B0 /* LaunchScreen.storyboard */,
 				461F19BD1E20CEEB00B3A1B0 /* Info.plist */,
+				461F19DF1E20D20700B3A1B0 /* GoogleService-Info.plist */,
 			);
 			path = Promptu;
 			sourceTree = "<group>";
@@ -125,6 +157,33 @@
 			path = PromptuUITests;
 			sourceTree = "<group>";
 		};
+		59F533D2859899FB2F32AB2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				461F19E11E20DE6800B3A1B0 /* Bolts.framework */,
+				461F19E21E20DE6800B3A1B0 /* FBSDKCoreKit.framework */,
+				461F19E31E20DE6800B3A1B0 /* FBSDKLoginKit.framework */,
+				461F19E41E20DE6800B3A1B0 /* FBSDKShareKit.framework */,
+				F0D93B70CDA680E421DACFA0 /* Pods_Promptu.framework */,
+				EBAF895C1DF01DD2F5DA3942 /* Pods_PromptuTests.framework */,
+				17A56F6BF0D1A5686CFA0F17 /* Pods_PromptuUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE45F8887FB05550DC0D3A06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBD3D8D7EE0D048CAB231C71 /* Pods-Promptu.debug.xcconfig */,
+				4785AFD92E2876CFF7BE946D /* Pods-Promptu.release.xcconfig */,
+				CBBBEC22F1A953AF1FEDDA08 /* Pods-PromptuTests.debug.xcconfig */,
+				0ADA020A48FA63F16CE422A9 /* Pods-PromptuTests.release.xcconfig */,
+				B9BDF0E154D2D46319016478 /* Pods-PromptuUITests.debug.xcconfig */,
+				9AA29FB8844F24F3A627B802 /* Pods-PromptuUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +191,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 461F19D61E20CEEB00B3A1B0 /* Build configuration list for PBXNativeTarget "Promptu" */;
 			buildPhases = (
+				4132745D9FDABA3D3DDC3152 /* [CP] Check Pods Manifest.lock */,
 				461F19AA1E20CEEA00B3A1B0 /* Sources */,
 				461F19AB1E20CEEA00B3A1B0 /* Frameworks */,
 				461F19AC1E20CEEA00B3A1B0 /* Resources */,
+				FA41804BE1DF280EAD5E7D47 /* [CP] Embed Pods Frameworks */,
+				F912277E442250CAB65E416D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +211,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 461F19D91E20CEEB00B3A1B0 /* Build configuration list for PBXNativeTarget "PromptuTests" */;
 			buildPhases = (
+				471E880EAB3017C7EB18F205 /* [CP] Check Pods Manifest.lock */,
 				461F19BE1E20CEEB00B3A1B0 /* Sources */,
 				461F19BF1E20CEEB00B3A1B0 /* Frameworks */,
 				461F19C01E20CEEB00B3A1B0 /* Resources */,
+				7E863487234C2B766F38F30A /* [CP] Embed Pods Frameworks */,
+				F9116BDCDC3CD284D4B37F95 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +232,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 461F19DC1E20CEEB00B3A1B0 /* Build configuration list for PBXNativeTarget "PromptuUITests" */;
 			buildPhases = (
+				08E96344E263F871F6D99151 /* [CP] Check Pods Manifest.lock */,
 				461F19C91E20CEEB00B3A1B0 /* Sources */,
 				461F19CA1E20CEEB00B3A1B0 /* Frameworks */,
 				461F19CB1E20CEEB00B3A1B0 /* Resources */,
+				D3C3F31D4FA11FB46640A791 /* [CP] Embed Pods Frameworks */,
+				69685998FCE38D6441DE0C50 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				461F19BC1E20CEEB00B3A1B0 /* LaunchScreen.storyboard in Resources */,
+				461F19E01E20D20700B3A1B0 /* GoogleService-Info.plist in Resources */,
 				461F19B91E20CEEB00B3A1B0 /* Assets.xcassets in Resources */,
 				461F19B71E20CEEB00B3A1B0 /* Main.storyboard in Resources */,
 			);
@@ -253,6 +322,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08E96344E263F871F6D99151 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4132745D9FDABA3D3DDC3152 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		471E880EAB3017C7EB18F205 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		69685998FCE38D6441DE0C50 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PromptuUITests/Pods-PromptuUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E863487234C2B766F38F30A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PromptuTests/Pods-PromptuTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3C3F31D4FA11FB46640A791 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PromptuUITests/Pods-PromptuUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9116BDCDC3CD284D4B37F95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PromptuTests/Pods-PromptuTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F912277E442250CAB65E416D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Promptu/Pods-Promptu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA41804BE1DF280EAD5E7D47 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Promptu/Pods-Promptu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		461F19AA1E20CEEA00B3A1B0 /* Sources */ = {
@@ -408,8 +615,13 @@
 		};
 		461F19D71E20CEEB00B3A1B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBD3D8D7EE0D048CAB231C71 /* Pods-Promptu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Promptu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.DailyGummies.Promptu;
@@ -420,8 +632,13 @@
 		};
 		461F19D81E20CEEB00B3A1B0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4785AFD92E2876CFF7BE946D /* Pods-Promptu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Promptu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.DailyGummies.Promptu;
@@ -432,6 +649,7 @@
 		};
 		461F19DA1E20CEEB00B3A1B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBBBEC22F1A953AF1FEDDA08 /* Pods-PromptuTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -446,6 +664,7 @@
 		};
 		461F19DB1E20CEEB00B3A1B0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ADA020A48FA63F16CE422A9 /* Pods-PromptuTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +679,7 @@
 		};
 		461F19DD1E20CEEB00B3A1B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9BDF0E154D2D46319016478 /* Pods-PromptuUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = PromptuUITests/Info.plist;
@@ -473,6 +693,7 @@
 		};
 		461F19DE1E20CEEB00B3A1B0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AA29FB8844F24F3A627B802 /* Pods-PromptuUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = PromptuUITests/Info.plist;
@@ -503,6 +724,7 @@
 				461F19D81E20CEEB00B3A1B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		461F19D91E20CEEB00B3A1B0 /* Build configuration list for PBXNativeTarget "PromptuTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +733,7 @@
 				461F19DB1E20CEEB00B3A1B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		461F19DC1E20CEEB00B3A1B0 /* Build configuration list for PBXNativeTarget "PromptuUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +742,7 @@
 				461F19DE1E20CEEB00B3A1B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,6 @@
+framework module Pods_Promptu {
+  umbrella header "Pods-Promptu-umbrella.h"
+
+  export *
+  module * { export * }
+}
